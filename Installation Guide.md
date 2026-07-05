@@ -11,7 +11,7 @@ Before starting, make sure you have the following:
 
 - Latest ROM package for **Xiaomi 12T (plato)**
 - [Android Platform Tools (ADB & Fastboot)](https://developer.android.com/tools/releases/platform-tools)
-- Optional: GApps package (if required by your ROM)
+- Optional: GApps package (if required)
 - [Engineering firmware preloader](https://pixeldrain.com/u/6eYXU83J)
 
 Additionally:
@@ -35,7 +35,7 @@ until the Fastboot screen appears.
 
 ## 🔧 Step 2: Flash preloader
 
-If your build includes a preloader package:
+Flash the preloader:
 
 ```bash
 fastboot flash preloader1 preloader_plato.bin
